@@ -10,12 +10,5 @@ const Results = props => {
   } else {
     return <div></div>;
   }
-  if (props.skinType === "dry") {
-    return (
-      <img src={dryDewy} />
-    )
-  } else {
-    return <div></div>;
-  }
 };
 export default Results;
