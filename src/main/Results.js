@@ -17,40 +17,40 @@ import comboDewy from "../images/comboDewy.jpg";
 
 const Results = props => {
   if (props.skinType === "oily" && props.finish === "Matte") {
-    return <img src={oilyMatte} />;
+    return <img src={oilyMatte} className="all" />;
   }
   if (props.skinType === "oily" && props.finish === "Radiant") {
-    return <img src={oilyRadiant} />;
+    return <img src={oilyRadiant} className="all" />;
   }
   if (props.skinType === "oily" && props.finish === "Smooth") {
-    return <img src={oilyLightCoverage} />;
+    return <img src={oilyLightCoverage} className="all" />;
   }
   if (props.skinType === "oily" && props.finish === "Dewy") {
-    return <img src={oilyDewy} />;
+    return <img src={oilyDewy} className="all" />;
   }
   if (props.skinType === "combo" && props.finish === "Matte") {
-    return <img src={comboMatte} />;
+    return <img src={comboMatte} className="all" />;
   }
   if (props.skinType === "combo" && props.finish === "Radiant") {
-    return <img src={comboRadiant} />;
+    return <img src={comboRadiant} className="all" />;
   }
   if (props.skinType === "combo" && props.finish === "Smooth") {
-    return <img src={comboSmooth} />;
+    return <img src={comboSmooth} clasName="all" />;
   }
   if (props.skinType === "combo" && props.finish === "Dewy") {
-    return <img src={comboDewy} />;
+    return <img src={comboDewy} className="all" />;
   }
   if (props.skinType === "dry" && props.finish === "Matte") {
-    return <img src={dryMatte} />;
+    return <img src={dryMatte} className="all" />;
   }
   if (props.skinType === "dry" && props.finish === "Radiant") {
-    return <img src={dryRadiant} />;
+    return <img src={dryRadiant} className="all" />;
   }
   if (props.skinType === "dry" && props.finish === "Smooth") {
-    return <img src={dewySmooth} />;
+    return <img src={dewySmooth} className="all" />;
   }
   if (props.skinType === "dry" && props.finish === "Dewy") {
-    return <img src={dryDewy} />;
+    return <img src={dryDewy} className="all" />;
   } else {
     return <div>No Results</div>;
   }
