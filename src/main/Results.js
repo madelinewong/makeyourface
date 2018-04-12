@@ -35,7 +35,7 @@ const Results = props => {
     return <img src={comboRadiant} className="all" />;
   }
   if (props.skinType === "combo" && props.finish === "Smooth") {
-    return <img src={comboSmooth} clasName="all" />;
+    return <img src={comboSmooth} className="all" />;
   }
   if (props.skinType === "combo" && props.finish === "Dewy") {
     return <img src={comboDewy} className="all" />;

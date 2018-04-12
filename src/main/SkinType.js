@@ -3,11 +3,17 @@ import React from 'react';
 
 const SkinType = props => (
     <div className="skinTypeContainer">
-        <h1> rad </h1>
-        <button onClick={e => props.onSkinType(e.target.textContent)}>oily</button>
-        <button onClick={e => props.onSkinType(e.target.textContent)}>combo</button>
-        <button onClick={e => props.onSkinType(e.target.textContent)}>dry</button>
-        <button className="button1" onClick={() => props.changePlace('finish')}>next!</button>
+    {/* <style>
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+</style> */}
+<style>
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+</style>
+<div className="container"> Okay, let's get started. What type of skin do you have? </div>
+        <button onClick={e => props.onSkinType(e.target.textContent)} className="oily">oily</button>
+        <button onClick={e => props.onSkinType(e.target.textContent)} className="combo">combo</button>
+        <button onClick={e => props.onSkinType(e.target.textContent)} className="dry">dry</button>
+        <button className="button1" onClick={() => props.changePlace('finish')} className="next">next!</button>
     </div>
 )
 export default SkinType;

@@ -1,14 +1,78 @@
 body {
-    background-image: url("marble.jpg");
+    /* background-image: url("marble.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    image-rendering: auto; */
+    background: url("marble.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .all {
     display: flex;
     justify-content: center;
+    padding-top: 5rem;
     margin-left: auto;
     margin-right: auto;
     width: 30rem;
 
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    margin-left: 50rem;
+    color:	#fba09d;
+    text-shadow: 2px 2px 5px #4e2b29;
+    /* background-color: #f7ccad93; */
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Cinzel', serif;
+    font-size: 3rem;
+    width: 10rem;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30rem;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.oily {
+    margin-left: 15rem;
+}
+
+.combo {
+    margin-left: 15rem;
+}
+
+.dry {
+    margin-left: 15rem;
+}
+
+.next {
+    margin-left: 35.6rem;
+}
+
+.container {
+    padding-left: 40rem;
 }
