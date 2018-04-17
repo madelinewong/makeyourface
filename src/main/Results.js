@@ -17,7 +17,7 @@ import comboDewy from "../images/comboDewy.jpg";
 
 const Results = props => {
   if (props.skinType === "oily" && props.finish === "Matte") {
-    return <img src={oilyMatte} className="all"/>;
+    return <img src={oilyMatte} className="all" />;
   }
   if (props.skinType === "oily" && props.finish === "Radiant") {
     return <img src={oilyRadiant} className="all" />;
